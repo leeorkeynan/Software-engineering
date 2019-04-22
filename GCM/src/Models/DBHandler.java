@@ -16,6 +16,7 @@ public class DBHandler implements IDBHandler
     public DBHandler()
     {
         m_isConnected = false;
+        Init();
     }
     //endregion
 
@@ -208,7 +209,7 @@ public class DBHandler implements IDBHandler
         }
         return null;
     }
-    
+
 
     //endregion
 
@@ -229,10 +230,10 @@ public class DBHandler implements IDBHandler
     // update USER, PASS and DB URL according to credentials provided by the website:
     // https://remotemysql.com/
     // in future get those hardcoede string into separated config file.
-    private final String DB = "SNww8MwQQJ";
+    private final String DB = "n0LBO2gM5F";
     private final String DB_URL = "jdbc:mysql://remotemysql.com/"+ DB + "?useSSL=false";
-    private final String USER = "SNww8MwQQJ";
-    private final String PASS = "UssP2rFvtK";
+    private final String USER = "n0LBO2gM5F";
+    private final String PASS = "FYYphwfFm3";
 
     //endregion
 
