@@ -16,7 +16,7 @@ import common.*;
  * @author Paul Holden
  * @version July 2000
  */
-public class EchoServer extends AbstractServer 
+public class EchoServer extends AbstractServer
 {
   //Class variables *************************************************
   
@@ -24,7 +24,7 @@ public class EchoServer extends AbstractServer
    * The default port to listen on.
    */
   final public static int DEFAULT_PORT =5555;
-  private IDBHandler DB
+  private IDBHandler DB;
   /**
    * The interface type variable. It allows the implementation of 
    * the display method in the client.
@@ -106,7 +106,7 @@ public class EchoServer extends AbstractServer
       {
     	  try
     	  {
-    		  client.sendToClient(DB.GetNumOfPurchases(client.getInfo("loginID"))    		  
+    		  client.sendToClient(DB.GetNumOfPurchases(client.getInfo("loginID")));
     	  }
     	  catch (IOException e) {}
           return;
@@ -118,9 +118,12 @@ public class EchoServer extends AbstractServer
 	  {
 		  try
 		  {
-    		  client.sendToClient(DB.IncreaseNumOfPurchases(client.getInfo("loginID"),1)    		  
+    		  client.sendToClient(DB.IncreaseNumOfPurchases(client.getInfo("loginID"),1));
 		  }
-		  catch (IOException e) {}
+		  catch (IOException e)
+          {
+            System.out.printline
+          }
 	      return;
 	  }	  
 
@@ -130,7 +133,7 @@ public class EchoServer extends AbstractServer
 	{
 	try
 	{
-		  client.sendToClient(DB.GetClientDetails(client.getInfo("loginID"))    		  
+		  client.sendToClient(DB.GetClientDetails(client.getInfo("loginID")));
 	}
 	catch (IOException e) {}
 	return;
