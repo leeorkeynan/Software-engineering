@@ -2,11 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6d7677-5c70-4c6a-81b1-14e94305933b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_linux_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_mac_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/ClientDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/DBHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Interfaces/IClientDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/java/db/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/se-0.0.1-jdbcHelloWorld-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/se-0.0.1-jdbcHelloWorld.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/ActivityDiagram4.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/ActivityDiagram4.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/AllClasses.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/AllClasses.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/PDOM.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/PDOM.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/Untitled Diagram.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Interfaces/IDBHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Interfaces/IDBHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,24 +75,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="classpath" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="22" />
+          <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Eclipse" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="22" />
+          <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1986" />
+          <entry key="classpath" value="8" />
+          <entry key="dummy" value="6" />
+          <entry key="java" value="3502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1986" />
+          <entry key="Eclipse" value="8" />
+          <entry key="JAVA" value="3502" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -61,19 +108,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Views/Interfaces/IGCMBoundry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/AppGCM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="253">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#145#160#0" />
@@ -97,15 +135,70 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Models/Message.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/ClientDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Models/DBHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2833">
+              <caret line="210" column="4" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
+                <element signature="method#GetNumOfPurchases#0;class#DBHandler#0" />
+                <element signature="method#IncreaseNumOfPurchases#0;class#DBHandler#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/java/db/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="109" column="44" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/Interfaces/IDBHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -113,7 +206,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/SystemGCM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="215">
               <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,10 +217,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Models/Interfaces/IDBData.java">
+        <entry file="file://$PROJECT_DIR$/src/Models/Interfaces/IClientDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -150,7 +243,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/Models/Interfaces/IGCMBoundry.java" />
         <option value="$PROJECT_DIR$/src/Models/Interfaces/IDBData.java" />
-        <option value="$PROJECT_DIR$/src/Models/Interfaces/IDBHandler.java" />
         <option value="$PROJECT_DIR$/src/Models/Interfaces/IMessageManager.java" />
         <option value="$PROJECT_DIR$/src/Views/Interfaces/AppGCM.java" />
         <option value="$PROJECT_DIR$/src/Models/Interfaces/IMessage.java" />
@@ -165,6 +257,13 @@
         <option value="$PROJECT_DIR$/src/Models/OCSF/client/ChatClient.java" />
         <option value="$PROJECT_DIR$/src/Models/OCSF/server/EchoServer.java" />
         <option value="$PROJECT_DIR$/src/Models/ServerMessageManager.java" />
+        <option value="$PROJECT_DIR$/.classpath" />
+        <option value="$PROJECT_DIR$/src/Models/java/db/Main.java" />
+        <option value="$PROJECT_DIR$/src/Models/Interfaces/IUserDetails.java" />
+        <option value="$PROJECT_DIR$/src/Models/Interfaces/IDBHandler.java" />
+        <option value="$PROJECT_DIR$/src/Models/Interfaces/IClientDetails.java" />
+        <option value="$PROJECT_DIR$/src/Models/ClientDetails.java" />
+        <option value="$PROJECT_DIR$/src/Models/DBHandler.java" />
       </list>
     </option>
   </component>
@@ -192,11 +291,6 @@
             <path>
               <item name="GCM" type="b2602c69:ProjectViewProjectNode" />
               <item name="GCM" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GCM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GCM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,6 +298,24 @@
               <item name="GCM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCM" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GCM" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +326,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555919006244" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Git/Softwer-engineering/GCM/src/Models/java/db/Main.java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555928224558" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lab5" />
   </component>
   <component name="RecentsManager">
@@ -285,6 +398,34 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32903227" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -307,29 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Interfaces/IDBHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/Interfaces/IGCMBoundry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/AppGCM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#145#160#0" />
-            <element signature="e#228#242#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,21 +505,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/SystemGCM.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/AppGCM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#149#164#0" />
+            <element signature="e#145#160#0" />
+            <element signature="e#228#242#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Interfaces/IDBData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -413,13 +561,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/Views/SystemGCM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="215">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#164#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Interfaces/IDBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Interfaces/IClientDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/ClientDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/java/db/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="109" column="44" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/DBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2833">
+          <caret line="210" column="4" selection-start-line="210" selection-start-column="4" selection-end-line="210" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="method#GetNumOfPurchases#0;class#DBHandler#0" />
+            <element signature="method#IncreaseNumOfPurchases#0;class#DBHandler#0" />
           </folding>
         </state>
       </provider>
